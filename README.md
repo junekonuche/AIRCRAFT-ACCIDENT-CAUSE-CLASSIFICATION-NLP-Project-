@@ -105,3 +105,22 @@ Extend the work toward full Aircraft Accident Prediction using ML (planned for M
 │   ├── confusion_matrix.png
 │   └── metrics_summary.csv
 └──  requirements.txt
+
+ Why Classification?
+
+This is a classification problem because the target variable (“Cause Category”) consists of discrete classes such as:
+
+Pilot Error
+
+Mechanical Failure
+
+Weather-related Issue
+
+Other Causes
+
+The model’s goal is to assign each incident to one of these categories based on its text description.
+
+ Conclusion
+
+This project demonstrates how NLP can be used to automate the classification of aviation incident causes.
+By comparing traditional and modern approaches, we gain insights into how machine learning can enhance safety analysis and help aviation authorities identify patterns behind incidents faster and more accurately.
